@@ -134,15 +134,15 @@
  transform: translateY(0);
 }
 
-.menu_button.buttonMenuOpen .menu_button-effect{
+.menu_button.buttonMenuOpen .menu_buttonEffect{
   transform: translateX(-50px);
   background: transparent;
 
 }
-.menu_button.buttonMenuOpen .menu_button-effect::before{
+.menu_button.buttonMenuOpen .menu_buttonEffect::before{
   transform: rotate(45deg) translate(35px, -35px);
 }
-.menu_button.buttonMenuOpen .menu_button-effect::after{
+.menu_button.buttonMenuOpen .menu_buttonEffect::after{
   transform: rotate(-45deg) translate(35px, 35px);
 }
 
