@@ -180,7 +180,6 @@
   flex: 1 0 calc(25% - 20px);
   max-width: calc(25% - 20px);
   margin: 10px;
-  overflow: hidden;
   height: 550px;
 }
 
@@ -306,4 +305,21 @@
 
 .box_center li a:hover {
   color: black;
+}
+
+
+
+.textCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.flexItem {
+  width: 40vh;
+}
+
+.mainDiv{
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
